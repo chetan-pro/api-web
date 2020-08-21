@@ -1,0 +1,117 @@
+@media(max-width:1200px){
+
+    #containernav{
+       width: 80%;
+    }
+    .section{
+        width: 75%;
+    }
+    #topfooter{
+        width: 100%;
+    }
+}
+
+@media(max-width:1000px){
+
+    #togglebar{
+        display: block;
+        font-size: 20px;
+    }
+
+    #rightnav{
+        padding: 20px 40px;
+        position: absolute;
+        z-index: 99;
+        top: 80px;
+        left: -100%;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        min-height: 50%;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: space-around;
+        font-size: 17px;
+        transition: .5s;
+      }
+      
+      #rightnav.slide{
+        left: 0%;
+       }
+
+      #containernav #rightnav ul{
+          width: 100%;
+          flex-direction: column;
+      }
+
+      #containernav #rightnav ul li {
+          margin-bottom: 16px;
+      }
+
+      #containernav #rightnav ul li a{
+          font-size:17px;
+      }
+
+      .item{
+          position: static;
+      }
+
+      
+     
+      #cardcontainer{
+        flex-wrap: wrap;
+     }
+     #cardcontainer .card{
+         width: 50%;
+     }
+     #section1,#section2,#section3,#section4{
+        
+         width: 95%;
+     }
+     #section3 #cardcontainer{
+         align-items: center;
+     }
+     #section5 #box .box{
+        width: 50%;
+        }
+
+      #topfooter .list{
+        width: 20%;
+    }
+}
+@media(max-width:450px){
+
+    #containernav{
+        width: 100%;
+         padding: 0px 20px;
+     }
+
+     #main{
+       margin-top: 0px;
+       padding: 0px 0px;
+     }
+     #cardcontainer .card{
+        width: 100%;
+    }
+     #section5 #box .box{
+        width: 100%;
+        }
+     #topfooter{
+        padding: 40px 10px;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #topfooter #logo{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+     #topfooter .list{
+         margin-top: 20px;
+         width: 45%;
+    }
+
+}

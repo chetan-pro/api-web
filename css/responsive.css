@@ -1,0 +1,204 @@
+@media(max-width:1200px){
+
+    #containernav{
+       width: 80%;
+    }
+    #topfooter{
+        width: 100%;
+    }
+}
+
+@media(max-width:1000px){
+
+    #togglebar{
+        display: block;
+        font-size: 20px;
+    }
+
+    #rightnav{
+        padding: 20px 40px;
+        position: absolute;
+        z-index: 99;
+        top: 80px;
+        left: -100%;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        min-height: 50%;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: space-around;
+        font-size: 17px;
+        transition: .5s;
+      }
+      
+      #rightnav.slide{
+        left: 0%;
+       }
+
+      #containernav #rightnav ul{
+          width: 100%;
+          flex-direction: column;
+      }
+
+      #containernav #rightnav ul li {
+          margin-bottom: 16px;
+      }
+
+      #containernav #rightnav ul li a{
+          font-size:17px;
+      }
+
+      .item{
+          position: static;
+      }
+      #section1 .container #left h1{
+        width: 600px;
+      } 
+      #section1 .container #right{
+          margin-top: 120px;
+          margin-left: 20px;
+      }
+      #section2 .container,  #section3 .container  {
+          width: 90%;
+      }
+      
+      #section6 .container #cardcontainer .card{
+          padding: 10px;
+          width: 25%;
+      }
+     
+      #section7 .container {
+          width: 100%;
+      }
+      #section8 .container{
+          align-items: center;
+      }
+      #section8 .container #right{
+        width: 40%;
+        margin-top:0px ;
+    }
+
+      #topfooter .list{
+        width: 20%;
+    }
+}
+@media(max-width:700px){
+
+    #containernav{
+        width: 100%;
+         padding: 0px 20px;
+     }
+     #section1 .container #left{
+         width: 100%;
+     }
+
+     #section1 .container #left h1{
+         width: 100%;
+     }
+
+     #section1 .container #right{
+         margin-top: 20px;
+         width: 100%;
+     }
+    .container{
+         flex-direction: column;
+         align-items: center;
+     }
+     #section2 .container #left{
+         width: 100%;
+     }
+     #section2 .container #right{
+        width: 50%;
+     }
+     #section3 .container #left{
+         width: 50%;
+     }
+     #section3 .container #right{
+         margin-top: 20px;
+        width: 100%;
+     }
+     #section5 .container #top{
+         width: 100%;
+     }
+     #section5 .container #mid{
+         width: 100%;
+     }
+     #section6 .container #cardcontainer .card{
+         width: 50%;
+     }
+
+     #section7 .container #box .content{
+         width: 50%;
+     }
+       
+     #section8 .container #right{
+         width: 95%;
+         text-align: center;
+     } 
+
+     #topfooter{
+        padding: 40px 10px;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #topfooter #logo{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+     #topfooter .list{
+         margin-top: 20px;
+         width: 33%;
+         padding: 0px 20px;
+    }
+
+}
+
+@media(max-width:450px){
+    #section2 .container #right{
+        margin-top: 20px;
+        width: 80%;
+     }
+    #section3 .container #left{
+        width: 80%;
+     }
+     #section4 .container{
+         width: 90%;
+     }
+     #section5 .container #bottom .box{
+         margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    #section6 .container #cardcontainer .card{
+        width: 100%;
+    }
+    #section7 .container{
+        padding: 0px 20px;
+        text-align: center;
+    }
+    #section7 .container #box .content{
+        width: 100%;
+    }
+    #section8 .container{
+        width: 100%;
+    }
+    #section8 .container #left{
+        width: 95%;
+    }
+    #section8 .container #right{
+        margin-top: 20px;
+        width: 100%;
+        padding: 5px 5px;
+      
+    } 
+    #topfooter .list{
+        margin-top: 20px;
+        width: 50%;
+        padding: 0px 20px;
+   }
+}
